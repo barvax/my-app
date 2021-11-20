@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+   
+}
+li{
+    padding-left: 25px;
+}

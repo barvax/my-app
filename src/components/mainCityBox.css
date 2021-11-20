@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Oxygen:wght@700&display=swap');
+
+body{
+    background-image: url("blurbackground.jpg");
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+.text{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(221, 140, 18);
+}
+.text1{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 10px;
+}
+
+.parent{
+    display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+/*
+background-image: url("blurbackground.jpg");
+background-size: cover;*/
+
+background-color: rgb(93, 65, 158);
+width: 80%;
+height: 500px;
+margin-left: 10%;
+margin-top: 5%;
+}
+
+
+.left-Screen{
+    background-image: url("../Images/pexels-pixabay-209831.jpg");
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+height: 100%;
+
+
+}
+.right-Screen{
+    grid-area: 1 / 2 / 2 / 3;
+   overflow: scroll;
+   height: 100%;
+   background-image: url("../Images/blur2.png");
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+   color:aliceblue;
+}
+.right-Screen::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.mainData{
+  
+  /* background-color: tan;*/
+  margin-top: 45%;
+  color: aliceblue;
+  
+  
+  
+}
+
+    
+ .line{
+    padding-left: 20%;
+    display: flex;
+   
+
+ }
+
+ .mainTemp{
+     font-size: 80px;
+     font-family: 'Oxygen', sans-serif;
+ }
+ .Namemain-cityName{
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 30px;
+    padding-left: 8px;
+ }
+ .main-data{
+     font-size: 10px;
+ }
+ .icon{
+     width: 50px;
+     height: 50px;
+     padding-top: 20px;
+     padding-left: 10px;
+ }
+ .moreDetails{
+     display: flex;
+ }
+
+ table{
+    
+    width:80%;
+    text-align: left;
+    margin-left: 10%;
+   padding-top: 5px;
+    font-family: 'Oxygen', sans-serif;
+
+   
+ }
+ table > tbody>tr>td{
+     width: 50%;
+      font-size: 12px;
+      color: darkgrey;
+ }
+ .tdValue{
+     padding-left: 50px;
+     color: rgb(223, 215, 215);
+ }
+ table >tbody> tr {
+     padding: 10px;
+ }
+ hr{
+     width: 80%;
+     opacity: 0.5;
+    
+ }
+
+ .leftSideTitle{
+     padding-left: 40px;
+ }
+
+ ul{
+     text-decoration: none;
+     list-style: none;
+ }
+ ul > li{
+     padding-top: 15px;
+     color: darkgrey;
+     font-family: 'Oxygen', sans-serif;
+     font-size: 12px;
+ }
+ ul> li:hover{
+     cursor: pointer;
+     color: ghostwhite;
+ }
+.mainCity-country{
+    position: absolute;
+    top:20%;
+    color:rgb(255, 255, 224);
+    font-size: 28px;
+    font-family: 'Oxygen', sans-serif;
+    left:15%;
+   
+}
+
+.day-forcast{
+    padding-left: 40px;
+    color: rgb(223, 215, 215);
+    font-family: 'Oxygen', sans-serif;
+     font-size: 12px;
+     padding-top: 13px;
+    
+}
+.forcasicon{
+    width: 50px;
+     height: 50px;
+     padding-left: 50px;
+}
+
+.warnings{
+    padding-left: 40px;
+    color: rgb(223, 215, 215);
+    font-family: 'Oxygen', sans-serif;
+     font-size: 12px;
+     padding-top: 13px;
+}
+
